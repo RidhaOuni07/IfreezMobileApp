@@ -61,11 +61,11 @@ class _MaterialYouState extends State<MaterialYou> {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => dbara(),
+                          builder: (context) => const Dbara(),
                         ),
                       );
                     },
-                    child: Container(
+                    child: SizedBox(
                       width: 170,
                       height: 140,
                       child: Card(
@@ -75,9 +75,9 @@ class _MaterialYouState extends State<MaterialYou> {
                         elevation: 30,
                         shadowColor: Colors.blue,
                         margin: const EdgeInsets.fromLTRB(30, 10, 30, 10),
-                        child: Column(
+                        child: const Column(
                           children: [
-                            const ClipRRect(
+                            ClipRRect(
                                 borderRadius: BorderRadius.only(
                                     topLeft: Radius.circular(30),
                                     topRight: Radius.circular(30)),
@@ -85,14 +85,12 @@ class _MaterialYouState extends State<MaterialYou> {
                                   image: AssetImage('assets/icon.jpg'),
                                   fit: BoxFit.contain,
                                 )),
-                            const SizedBox(
+                            SizedBox(
                               height: 10,
                             ),
-                            Container(
-                              child: const Text(
-                                "Dbara",
-                                style: _textStyle,
-                              ),
+                            Text(
+                              "Dbara",
+                              style: _textStyle,
                             ),
                           ],
                         ),
@@ -109,11 +107,11 @@ class _MaterialYouState extends State<MaterialYou> {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => MyHomePage(),
+                          builder: (context) => const MyHomePage(),
                         ),
                       );
                     },
-                    child: Container(
+                    child: SizedBox(
                       width: 170,
                       height: 140,
                       child: Card(
@@ -123,9 +121,9 @@ class _MaterialYouState extends State<MaterialYou> {
                         elevation: 30,
                         shadowColor: Colors.blue,
                         margin: const EdgeInsets.fromLTRB(30, 10, 30, 10),
-                        child: Column(
+                        child: const Column(
                           children: [
-                            const ClipRRect(
+                            ClipRRect(
                                 borderRadius: BorderRadius.only(
                                     topLeft: Radius.circular(30),
                                     topRight: Radius.circular(30)),
@@ -133,14 +131,12 @@ class _MaterialYouState extends State<MaterialYou> {
                                   image: AssetImage('assets/l2.jpg'),
                                   fit: BoxFit.contain,
                                 )),
-                            const SizedBox(
+                            SizedBox(
                               height: 10,
                             ),
-                            Container(
-                              child: const Text(
-                                "Stock",
-                                style: _textStyle,
-                              ),
+                            Text(
+                              "Stock",
+                              style: _textStyle,
                             ),
                           ],
                         ),
@@ -157,11 +153,11 @@ class _MaterialYouState extends State<MaterialYou> {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => MusicApp(),
+                          builder: (context) => const MusicApp(),
                         ),
                       );
                     },
-                    child: Container(
+                    child: SizedBox(
                       width: 170,
                       height: 140,
                       child: Card(
@@ -171,9 +167,9 @@ class _MaterialYouState extends State<MaterialYou> {
                         elevation: 30,
                         shadowColor: Colors.blue,
                         margin: const EdgeInsets.fromLTRB(30, 10, 30, 10),
-                        child: Column(
+                        child: const Column(
                           children: [
-                            const ClipRRect(
+                            ClipRRect(
                                 borderRadius: BorderRadius.only(
                                     topLeft: Radius.circular(30),
                                     topRight: Radius.circular(30)),
@@ -181,14 +177,12 @@ class _MaterialYouState extends State<MaterialYou> {
                                   image: AssetImage('assets/m2.jpg'),
                                   fit: BoxFit.contain,
                                 )),
-                            const SizedBox(
+                            SizedBox(
                               height: 10,
                             ),
-                            Container(
-                              child: const Text(
-                                "Music",
-                                style: _textStyle,
-                              ),
+                            Text(
+                              "Music",
+                              style: _textStyle,
                             ),
                           ],
                         ),
@@ -209,11 +203,11 @@ class _MaterialYouState extends State<MaterialYou> {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => control(),
+                          builder: (context) => const Control(),
                         ),
                       );
                     },
-                    child: Container(
+                    child: SizedBox(
                       width: 170,
                       height: 140,
                       child: Card(
@@ -223,9 +217,9 @@ class _MaterialYouState extends State<MaterialYou> {
                         elevation: 30,
                         shadowColor: Colors.blue,
                         margin: const EdgeInsets.fromLTRB(30, 10, 30, 10),
-                        child: Column(
+                        child: const Column(
                           children: [
-                            const ClipRRect(
+                            ClipRRect(
                                 borderRadius: BorderRadius.only(
                                     topLeft: Radius.circular(30),
                                     topRight: Radius.circular(30)),
@@ -233,14 +227,12 @@ class _MaterialYouState extends State<MaterialYou> {
                                   image: AssetImage('assets/tmp.png'),
                                   fit: BoxFit.contain,
                                 )),
-                            const SizedBox(
+                            SizedBox(
                               height: 10,
                             ),
-                            Container(
-                              child: const Text(
-                                "Control",
-                                style: _textStyle,
-                              ),
+                            Text(
+                              "Control",
+                              style: _textStyle,
                             ),
                           ],
                         ),
@@ -257,11 +249,11 @@ class _MaterialYouState extends State<MaterialYou> {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => notes(),
+                          builder: (context) => const Notes(),
                         ),
                       );
                     },
-                    child: Container(
+                    child: SizedBox(
                       width: 170,
                       height: 140,
                       child: Card(
@@ -271,9 +263,9 @@ class _MaterialYouState extends State<MaterialYou> {
                         elevation: 30,
                         shadowColor: Colors.blue,
                         margin: const EdgeInsets.fromLTRB(30, 10, 30, 10),
-                        child: Column(
+                        child: const Column(
                           children: [
-                            const ClipRRect(
+                            ClipRRect(
                                 borderRadius: BorderRadius.only(
                                     topLeft: Radius.circular(30),
                                     topRight: Radius.circular(30)),
@@ -281,14 +273,12 @@ class _MaterialYouState extends State<MaterialYou> {
                                   image: AssetImage('assets/notes6.jpg'),
                                   fit: BoxFit.contain,
                                 )),
-                            const SizedBox(
+                            SizedBox(
                               height: 10,
                             ),
-                            Container(
-                              child: const Text(
-                                "Notes",
-                                style: _textStyle,
-                              ),
+                            Text(
+                              "Notes",
+                              style: _textStyle,
                             ),
                           ],
                         ),
@@ -305,11 +295,11 @@ class _MaterialYouState extends State<MaterialYou> {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => stats(),
+                          builder: (context) => const Stats(),
                         ),
                       );
                     },
-                    child: Container(
+                    child: SizedBox(
                       width: 170,
                       height: 140,
                       child: Card(
@@ -319,9 +309,9 @@ class _MaterialYouState extends State<MaterialYou> {
                         elevation: 30,
                         shadowColor: Colors.blue,
                         margin: const EdgeInsets.fromLTRB(30, 10, 30, 10),
-                        child: Column(
+                        child: const Column(
                           children: [
-                            const ClipRRect(
+                            ClipRRect(
                                 borderRadius: BorderRadius.only(
                                     topLeft: Radius.circular(30),
                                     topRight: Radius.circular(30)),
@@ -329,14 +319,12 @@ class _MaterialYouState extends State<MaterialYou> {
                                   image: AssetImage('assets/stat.png'),
                                   fit: BoxFit.contain,
                                 )),
-                            const SizedBox(
+                            SizedBox(
                               height: 10,
                             ),
-                            Container(
-                              child: const Text(
-                                "Stats",
-                                style: _textStyle,
-                              ),
+                            Text(
+                              "Stats",
+                              style: _textStyle,
                             ),
                           ],
                         ),
@@ -353,90 +341,84 @@ class _MaterialYouState extends State<MaterialYou> {
       child: ListView(
         children: [
           ListTile(
-            title: Text(
+            title: const Text(
               'Mode economique',
               style: _textStyle,
             ),
-            subtitle: Text("Utilisez moins d'energie !"),
-            leading: Image(
+            subtitle: const Text("Utilisez moins d'energie !"),
+            leading: const Image(
               image: AssetImage('assets/eco1.png'),
               fit: BoxFit.contain,
             ),
-            trailing: Container(
-              child: ToggleSwitch(
-                minWidth: 90.0,
-                cornerRadius: 20.0,
-                activeBgColors: const [
-                  [Colors.cyan],
-                  [Colors.redAccent]
-                ],
-                activeFgColor: Colors.white,
-                inactiveBgColor: Colors.grey,
-                inactiveFgColor: Colors.white,
-                totalSwitches: 2,
-                labels: const ['ON', ''],
-                icons: const [null, FontAwesomeIcons.times],
-              ),
+            trailing: ToggleSwitch(
+              minWidth: 90.0,
+              cornerRadius: 20.0,
+              activeBgColors: const [
+                [Colors.cyan],
+                [Colors.redAccent]
+              ],
+              activeFgColor: Colors.white,
+              inactiveBgColor: Colors.grey,
+              inactiveFgColor: Colors.white,
+              totalSwitches: 2,
+              labels: const ['ON', ''],
+              icons: const [null, FontAwesomeIcons.times],
             ),
           ),
           const SizedBox(
             height: 10,
           ),
           ListTile(
-            title: Text(
+            title: const Text(
               'Mode Vacances',
               style: _textStyle,
             ),
-            subtitle: Text("Consommez moins d'energie en vacances"),
-            leading: Image(
+            subtitle: const Text("Consommez moins d'energie en vacances"),
+            leading: const Image(
               image: AssetImage('assets/vac3.png'),
               fit: BoxFit.contain,
             ),
-            trailing: Container(
-              child: ToggleSwitch(
-                minWidth: 90.0,
-                cornerRadius: 20.0,
-                activeBgColors: const [
-                  [Colors.cyan],
-                  [Colors.redAccent]
-                ],
-                activeFgColor: Colors.white,
-                inactiveBgColor: Colors.grey,
-                inactiveFgColor: Colors.white,
-                totalSwitches: 2,
-                labels: const ['ON', ''],
-                icons: const [null, FontAwesomeIcons.times],
-              ),
+            trailing: ToggleSwitch(
+              minWidth: 90.0,
+              cornerRadius: 20.0,
+              activeBgColors: const [
+                [Colors.cyan],
+                [Colors.redAccent]
+              ],
+              activeFgColor: Colors.white,
+              inactiveBgColor: Colors.grey,
+              inactiveFgColor: Colors.white,
+              totalSwitches: 2,
+              labels: const ['ON', ''],
+              icons: const [null, FontAwesomeIcons.times],
             ),
           ),
           const SizedBox(
             height: 10,
           ),
           ListTile(
-            title: Text(
+            title: const Text(
               'Frezz Boost',
               style: _textStyle,
             ),
-            subtitle: Text('Congelation rapide'),
-            leading: Image(
+            subtitle: const Text('Congelation rapide'),
+            leading: const Image(
               image: AssetImage('assets/frez1.png'),
               fit: BoxFit.contain,
             ),
-            trailing: Container(
-              child: ToggleSwitch(
-                minWidth: 90.0,
-                cornerRadius: 20.0,
-                activeBgColors: const [
-                  [Colors.cyan],
-                  [Colors.redAccent]
-                ],
-                activeFgColor: Colors.white,
-                inactiveBgColor: Colors.grey,
-                inactiveFgColor: Colors.white,
-                totalSwitches: 2,
-                labels: const ['ON', ''],
-                icons: const [null, FontAwesomeIcons.times],
-              ),
+            trailing: ToggleSwitch(
+              minWidth: 90.0,
+              cornerRadius: 20.0,
+              activeBgColors: const [
+                [Colors.cyan],
+                [Colors.redAccent]
+              ],
+              activeFgColor: Colors.white,
+              inactiveBgColor: Colors.grey,
+              inactiveFgColor: Colors.white,
+              totalSwitches: 2,
+              labels: const ['ON', ''],
+              icons: const [null, FontAwesomeIcons.times],
             ),
           )
         ],
@@ -498,8 +480,8 @@ class _MaterialYouState extends State<MaterialYou> {
       ),
     ),*/
 
-class dbara extends StatelessWidget {
-  const dbara({Key? key}) : super(key: key);
+class Dbara extends StatelessWidget {
+  const Dbara({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -516,17 +498,17 @@ class dbara extends StatelessWidget {
                   },
                   child: Container(
                     padding: const EdgeInsets.fromLTRB(20, 15, 30, 10),
-                    child: Image(
+                    child: const Image(
                       image: AssetImage('assets/left3.png'),
                     ),
                   ),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 width: 10,
               ),
-              Padding(
-                padding: const EdgeInsets.fromLTRB(160, 15, 30, 10),
+              const Padding(
+                padding: EdgeInsets.fromLTRB(160, 15, 30, 10),
                 child: SizedBox(
                     child: Center(
                   child: Text(
@@ -543,7 +525,7 @@ class dbara extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => dbara2(),
+                        builder: (context) => const Dbara2(),
                       ),
                     );
                   },
@@ -558,8 +540,8 @@ class dbara extends StatelessWidget {
                           elevation: 30,
                           shadowColor: Colors.blue,
                           margin: const EdgeInsets.fromLTRB(30, 10, 30, 10),
-                          child: Column(children: [
-                            const ClipRRect(
+                          child: const Column(children: [
+                            ClipRRect(
                                 borderRadius: BorderRadius.only(
                                     topLeft: Radius.circular(30),
                                     topRight: Radius.circular(30)),
@@ -567,14 +549,12 @@ class dbara extends StatelessWidget {
                                   image: AssetImage('assets/o1.jpg'),
                                   fit: BoxFit.contain,
                                 )),
-                            const SizedBox(
+                            SizedBox(
                               height: 13,
                             ),
-                            Container(
-                              child: const Text(
-                                "Ojja",
-                                style: _textStyle3,
-                              ),
+                            Text(
+                              "Ojja",
+                              style: _textStyle3,
                             )
                           ]))),
                 );
@@ -585,14 +565,14 @@ class dbara extends StatelessWidget {
   }
 }
 
-class dbara2 extends StatelessWidget {
-  const dbara2({Key? key}) : super(key: key);
+class Dbara2 extends StatelessWidget {
+  const Dbara2({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        theme: new ThemeData(
-            scaffoldBackgroundColor: Color.fromARGB(255, 255, 255, 255)),
+        theme: ThemeData(
+            scaffoldBackgroundColor: const Color.fromARGB(255, 255, 255, 255)),
         debugShowCheckedModeBanner: false,
         home: Scaffold(
           body: Column(children: [
@@ -605,17 +585,17 @@ class dbara2 extends StatelessWidget {
                   },
                   child: Container(
                     padding: const EdgeInsets.fromLTRB(20, 15, 30, 10),
-                    child: Image(
+                    child: const Image(
                       image: AssetImage('assets/left3.png'),
                     ),
                   ),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 width: 10,
               ),
-              Padding(
-                padding: const EdgeInsets.fromLTRB(130, 10, 30, 10),
+              const Padding(
+                padding: EdgeInsets.fromLTRB(130, 10, 30, 10),
                 child: SizedBox(
                     child: Center(
                   child: Text(
@@ -627,7 +607,7 @@ class dbara2 extends StatelessWidget {
             ]),
             Container(
               padding: const EdgeInsets.fromLTRB(45, 0, 30, 10),
-              child: Image(
+              child: const Image(
                 image: AssetImage('assets/e12.png'),
                 fit: BoxFit.contain,
               ),
@@ -637,13 +617,13 @@ class dbara2 extends StatelessWidget {
   }
 }
 
-class control extends StatefulWidget {
-  control({Key? key}) : super(key: key);
+class Control extends StatefulWidget {
+  const Control({Key? key}) : super(key: key);
   @override
-  State<control> createState() => _controlState();
+  State<Control> createState() => _ControlState();
 }
 
-class _controlState extends State<control> {
+class _ControlState extends State<Control> {
   int volume = 10;
   @override
   Widget build(BuildContext context) {
@@ -659,17 +639,15 @@ class _controlState extends State<control> {
                     onTap: () {
                       Navigator.pop(context);
                     },
-                    child: Container(
-                      child: Image(
-                        image: AssetImage('assets/left3.png'),
-                      ),
+                    child: const Image(
+                      image: AssetImage('assets/left3.png'),
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 30,
                   ),
-                  Padding(
-                    padding: const EdgeInsets.fromLTRB(160, 15, 30, 10),
+                  const Padding(
+                    padding: EdgeInsets.fromLTRB(160, 15, 30, 10),
                     child: SizedBox(
                         child: Center(
                       child: Text(
@@ -681,7 +659,7 @@ class _controlState extends State<control> {
                 ],
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             IntrinsicHeight(
@@ -697,10 +675,10 @@ class _controlState extends State<control> {
                       },
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 60,
                   ),
-                  VerticalDivider(
+                  const VerticalDivider(
                     color: Colors.black,
                     thickness: 2,
                   ),
@@ -717,10 +695,10 @@ class _controlState extends State<control> {
                 ],
               ),
             ),
-            Row(
+            const Row(
               children: [
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(127, 15, 30, 10),
+                  padding: EdgeInsets.fromLTRB(127, 15, 30, 10),
                   child: SizedBox(
                       child: Center(
                     child: Text(
@@ -736,8 +714,8 @@ class _controlState extends State<control> {
   }
 }
 
-class notes extends StatelessWidget {
-  const notes({Key? key}) : super(key: key);
+class Notes extends StatelessWidget {
+  const Notes({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -751,14 +729,14 @@ class notes extends StatelessWidget {
   }
 }
 
-class stats extends StatefulWidget {
-  stats({Key? key}) : super(key: key);
+class Stats extends StatefulWidget {
+  const Stats({Key? key}) : super(key: key);
 
   @override
-  State<stats> createState() => _statsState();
+  State<Stats> createState() => _StatsState();
 }
 
-class _statsState extends State<stats> {
+class _StatsState extends State<Stats> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -774,17 +752,17 @@ class _statsState extends State<stats> {
                   },
                   child: Container(
                     padding: const EdgeInsets.fromLTRB(20, 15, 30, 10),
-                    child: Image(
+                    child: const Image(
                       image: AssetImage('assets/left3.png'),
                     ),
                   ),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 width: 10,
               ),
-              Padding(
-                padding: const EdgeInsets.fromLTRB(160, 15, 30, 10),
+              const Padding(
+                padding: EdgeInsets.fromLTRB(160, 15, 30, 10),
                 child: SizedBox(
                     child: Center(
                   child: Text(
@@ -801,7 +779,7 @@ class _statsState extends State<stats> {
                 shape: const CircleBorder(),
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(8.0),
-                  child: Image(
+                  child: const Image(
                     image: AssetImage('assets/g6.png'),
                     fit: BoxFit.contain,
                   ),
@@ -814,7 +792,7 @@ class _statsState extends State<stats> {
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key? key}) : super(key: key);
+  const MyHomePage({Key? key}) : super(key: key);
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
@@ -839,7 +817,7 @@ class _MyHomePageState extends State<MyHomePage> {
     try {
       connection = await BluetoothConnection.toAddress("98:DA:60:01:A9:3F");
       connection.input?.listen((Uint8List data) {
-        da = '${ascii.decode(data)}';
+        da = ascii.decode(data);
 
         if (ascii.decode(data).contains('!')) {
           connection.finish(); // Closing connection
@@ -871,21 +849,12 @@ class _MyHomePageState extends State<MyHomePage> {
     setState(() {});
   }
 
-  void _reloadOrCheck() {
-    waitLoading();
-    _connect();
-  }
 
-  Future<void> _sendData(String data) async {
-    connection.output
-        .add(Uint8List.fromList(utf8.encode(data))); // Sending data
-    await connection.output.allSent;
-  }
 
   @override
   void initState() {
     super.initState();
-    timer = Timer.periodic(Duration(milliseconds: 500), (_) {
+    timer = Timer.periodic(const Duration(milliseconds: 500), (_) {
       setState(() {});
     });
   }
@@ -950,16 +919,16 @@ class _MyHomePageState extends State<MyHomePage> {
                 },
                 child: Container(
                   padding: const EdgeInsets.fromLTRB(20, 15, 30, 10),
-                  child: Image(
+                  child: const Image(
                     image: AssetImage('assets/left3.png'),
                   ),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 width: 30,
               ),
-              Padding(
-                padding: const EdgeInsets.fromLTRB(220, 15, 30, 10),
+              const Padding(
+                padding: EdgeInsets.fromLTRB(220, 15, 30, 10),
                 child: SizedBox(
                     child: Center(
                   child: Text(
@@ -976,55 +945,52 @@ class _MyHomePageState extends State<MyHomePage> {
                     height: 20,
                   ),
                   ListTile(
-                    title: Text(
+                    title: const Text(
                       "Tomates",
                       style: _textStyle2,
                     ),
-                    leading: Image(
+                    leading: const Image(
                       image: AssetImage('assets/to8.png'),
                       fit: BoxFit.contain,
                     ),
-                    trailing: Container(
-                        child: Text(
+                    trailing: Text(
                       b1 + " g",
                       style: _textStyle2,
-                    )),
+                    ),
                   ),
                   const SizedBox(
                     height: 20,
                   ),
                   ListTile(
-                    title: Text(
+                    title: const Text(
                       "Pommes de terres",
                       style: _textStyle2,
                     ),
-                    leading: Image(
+                    leading: const Image(
                       image: AssetImage('assets/po1.png'),
                       fit: BoxFit.contain,
                     ),
-                    trailing: Container(
-                        child: Text(
+                    trailing: Text(
                       b2 + " g",
                       style: _textStyle2,
-                    )),
+                    ),
                   ),
                   const SizedBox(
                     height: 20,
                   ),
                   ListTile(
-                    title: Text(
+                    title: const Text(
                       "Viande",
                       style: _textStyle2,
                     ),
-                    leading: Image(
+                    leading: const Image(
                       image: AssetImage('assets/v1.png'),
                       fit: BoxFit.contain,
                     ),
-                    trailing: Container(
-                        child: Text(
+                    trailing: Text(
                       b3 + " g",
                       style: _textStyle2,
-                    )),
+                    ),
                   ),
                 ],
               ),
@@ -1052,17 +1018,17 @@ class MusicApp extends StatelessWidget {
                   },
                   child: Container(
                     padding: const EdgeInsets.fromLTRB(20, 15, 30, 10),
-                    child: Image(
+                    child: const Image(
                       image: AssetImage('assets/left3.png'),
                     ),
                   ),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 width: 10,
               ),
-              Padding(
-                padding: const EdgeInsets.fromLTRB(130, 150, 30, 10),
+              const Padding(
+                padding: EdgeInsets.fromLTRB(130, 150, 30, 10),
                 child: SizedBox(
                     child: Center(
                   child: Text(

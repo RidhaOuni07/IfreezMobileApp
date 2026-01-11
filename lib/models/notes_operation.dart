@@ -3,7 +3,7 @@ import 'package:ifreez/models/note.dart';
 
 class NotesOperation with ChangeNotifier {
   //List of note
-  List<Note> _notes = [];
+  final List<Note> _notes = [];
 
   List<Note> get getNotes {
     return _notes;
