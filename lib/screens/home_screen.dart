@@ -2,9 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:ifreez/models/note.dart';
 import 'package:ifreez/models/notes_operation.dart';
-import 'package:ifreez/screen/add_screen.dart';
+import 'package:ifreez/screens/add_screen.dart';
 
 class HomeScreen extends StatelessWidget {
+  const HomeScreen({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -14,15 +16,15 @@ class HomeScreen extends StatelessWidget {
           Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) => AddScreen(),
+              builder: (context) => const AddScreen(),
             ),
           );
         },
-        child: Icon(Icons.add, size: 30, color: Colors.blueGrey),
+        child: const Icon(Icons.add, size: 30, color: Colors.blueGrey),
         backgroundColor: Colors.white,
       ),
       appBar: AppBar(
-        title: Text(
+        title: const Text(
           'Ifreez Notes',
           style: TextStyle(
             fontSize: 25,
@@ -50,16 +52,16 @@ class HomeScreen extends StatelessWidget {
 class NotesCard extends StatelessWidget {
   final Note note;
 
-  NotesCard(this.note);
+  const NotesCard(this.note, {Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.all(15),
-      padding: EdgeInsets.all(15),
+      margin: const EdgeInsets.all(15),
+      padding: const EdgeInsets.all(15),
       height: 150,
       decoration: BoxDecoration(
-        color: Color.fromARGB(255, 231, 229, 229),
+        color: const Color.fromARGB(255, 231, 229, 229),
         borderRadius: BorderRadius.circular(15),
       ),
       child: Column(
@@ -67,12 +69,12 @@ class NotesCard extends StatelessWidget {
         children: [
           Text(
             note.title,
-            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+            style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
           ),
-          SizedBox(height: 5),
+          const SizedBox(height: 5),
           Text(
             note.description,
-            style: TextStyle(fontSize: 17),
+            style: const TextStyle(fontSize: 17),
           ),
         ],
       ),

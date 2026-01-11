@@ -3,10 +3,8 @@ import 'package:provider/provider.dart';
 import 'package:ifreez/models/notes_operation.dart';
 import 'package:ifreez/screens/home_screen.dart';
 
-void main() => runApp(const MyApp());
-
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+class Notes extends StatelessWidget {
+  const Notes({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

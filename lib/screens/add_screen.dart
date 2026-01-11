@@ -3,6 +3,8 @@ import 'package:provider/provider.dart';
 import 'package:ifreez/models/notes_operation.dart';
 
 class AddScreen extends StatelessWidget {
+  const AddScreen({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     String titleText = "";
@@ -11,13 +13,13 @@ class AddScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.blueGrey,
       appBar: AppBar(
-        title: Text('Ifreez Notes'),
+        title: const Text('Ifreez Notes'),
         centerTitle: true,
         elevation: 0,
         backgroundColor: Colors.transparent,
       ),
       body: Padding(
-        padding: EdgeInsets.only(
+        padding: const EdgeInsets.only(
           top: 15,
           left: 15,
           right: 15,
@@ -26,7 +28,7 @@ class AddScreen extends StatelessWidget {
         child: Column(
           children: [
             TextField(
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 border: InputBorder.none,
                 hintText: 'Title',
                 hintStyle: TextStyle(
@@ -35,7 +37,7 @@ class AddScreen extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.bold,
                 color: Colors.white,
@@ -46,7 +48,7 @@ class AddScreen extends StatelessWidget {
             ),
             Expanded(
               child: TextField(
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                   border: InputBorder.none,
                   hintText: 'Enter Description',
                   hintStyle: TextStyle(
@@ -54,7 +56,7 @@ class AddScreen extends StatelessWidget {
                     color: Colors.white,
                   ),
                 ),
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 18,
                   color: Colors.white,
                 ),
@@ -71,10 +73,10 @@ class AddScreen extends StatelessWidget {
               },
               style: TextButton.styleFrom(
                 padding:
-                    EdgeInsets.only(left: 30, right: 30, top: 10, bottom: 10),
-                backgroundColor: Color.fromARGB(255, 248, 247, 247),
+                    const EdgeInsets.only(left: 30, right: 30, top: 10, bottom: 10),
+                backgroundColor: const Color.fromARGB(255, 248, 247, 247),
               ),
-              child: Text('Add Note',
+              child: const Text('Add Note',
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
